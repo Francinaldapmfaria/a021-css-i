@@ -1,0 +1,85 @@
+/* Exercicio 1
+a) Adicione a classe `bloco` a todos os articles;
+b) Atribua a cada um dos articles um id `bloco-NUMERO`, indo de 1 a 4; */
+
+/* Exercicio2
+Utilize as propriedades do box model para deixar 
+os articles iguais aos da imagem anexada. Atribua estas propriedades à classe `bloco`; */
+
+
+/* Exercicio 3
+a) Utilize os ids para atribuir as bordas e cores de fundo dos articles, de acordo com o modelo;
+b) Defina "Helvetica" como a fonte padrão do elemento `main`. */
+
+main {
+    font-family: Helvetica;
+    color: white;
+    
+}
+
+
+p {
+    margin: 0;
+    padding-left:  1rem;
+
+}
+
+h1 {
+    margin: 0;
+    padding-left: 1rem ;
+    padding-top: 1rem;
+
+}
+
+article {
+    display: block;
+
+}
+
+.bloco {
+    width: 300px;
+    margin: 25px 25px 0;
+    right: 100px;
+    padding: 4px;
+    height: 5rem;
+
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#bloco-1 {
+
+    background-color: orange;
+    border: 4px solid rgb(255, 140, 0);
+    
+    
+
+}
+
+#bloco-2 {
+  
+    background-color:rgb(15, 90, 21);
+    border: 4px solid rgb(47, 255, 0);
+    
+
+}
+
+#bloco-3 {
+   
+    background-color: green;
+    border: 4px dashed rgb(38, 255, 0);
+    
+
+}
+
+#bloco-4 {
+     background-color: red;
+    border: 4px dashed rgb(200, 60, 60);
+   
+
+}
+
+
